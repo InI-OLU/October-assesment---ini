@@ -1,0 +1,28 @@
+.create{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.create label{
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.create input{
+	padding: 8px 16px;
+	border-radius: 8px;
+	border: none ;
+	outline: none;
+	background: #f9f9f9;
+	height: 45px;
+}
+.create button{
+	background: #214aa0;
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 8px;
+	height: 45px;
+	cursor: pointer;
+}
